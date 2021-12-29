@@ -1,0 +1,22 @@
+.btn {
+  width: 70%;
+  margin: auto;
+  height: 50px;
+  border-radius: 2em;
+  background: linear-gradient($color-secondary, $color-primary);
+  color: white;
+  border-style: none;
+  font-size: 18px;
+  &_nav {
+    background: $color-lightgray;
+    color: black;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 70px;
+    border-radius: 1em;
+    & i {
+      margin-right: 30px;
+      margin-left: -40px;
+    }
+  }
+}

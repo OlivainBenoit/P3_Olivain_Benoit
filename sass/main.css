@@ -1,0 +1,198 @@
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 50%;
+}
+
+.logo_footer {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.logo_footer img {
+  width: 25%;
+}
+
+.position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #eaeaea;
+  -webkit-box-shadow: inset 0px 3px 5px gray;
+          box-shadow: inset 0px 3px 5px gray;
+}
+
+.position i {
+  margin-right: 10px;
+}
+
+main {
+  background: #f6f6f6;
+  margin-bottom: 50px;
+}
+
+main h2 {
+  padding-top: 50px;
+  margin-left: 5%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+ul i {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #353535;
+  color: white;
+  padding-bottom: 20px;
+}
+
+footer img {
+  -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(312deg) brightness(101%) contrast(106%);
+          filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(312deg) brightness(101%) contrast(106%);
+}
+
+.head {
+  width: 100%;
+  font-size: 18px;
+  background-color: #f6f6f6;
+  padding-bottom: 50px;
+}
+
+.head h1 {
+  width: 80%;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.head_bloc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.head p {
+  margin-bottom: 40px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn {
+  width: 70%;
+  margin: auto;
+  height: 50px;
+  border-radius: 2em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(#ff79da, #9356dc);
+  color: white;
+  border-style: none;
+  font-size: 18px;
+}
+
+.btn_nav {
+  background: #f6f6f6;
+  color: black;
+  margin-bottom: 30px;
+  width: 90%;
+  height: 70px;
+  border-radius: 1em;
+}
+
+.btn_nav i {
+  margin-right: 30px;
+  margin-left: -40px;
+}
+
+.card {
+  width: 90%;
+  border-radius: 1em;
+  margin: auto;
+  background: white;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 75%;
+  border-radius: 1em 1em 0 0;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card_botside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card_botside_left {
+  margin-left: 15px;
+}
+
+.card_botside_left h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card_botside_left p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.icon_heart {
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=main.css.map */
